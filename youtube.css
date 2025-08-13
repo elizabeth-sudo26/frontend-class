@@ -1,0 +1,48 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.search-box {
+height: 40px;
+width: 100%;
+border-radius: 30px;
+padding-left: 20px;
+font-size: 15px;
+border: 1px solid grey;
+outline: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    height: 40px;
+    padding: 40px;
+    align-self: center;
+}
+
+.logo {
+    width: 100px;
+}
+.left-box {
+flex: 1;
+}
+.middle-box {
+flex: 2;
+
+}
+.right-box{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.create-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.create-btn:hover {
+    cursor: pointer;
+    background-color: rgb(211, 206, 206);
+}

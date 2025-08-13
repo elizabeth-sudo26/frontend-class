@@ -1,0 +1,14 @@
+ .title {
+            color: red;
+            font-size: 40px;
+        }
+        .name {
+            color: blue;
+        }
+        #another {
+            color: brown;
+        }
+        span {
+            color: chocolate;
+        }
+    
