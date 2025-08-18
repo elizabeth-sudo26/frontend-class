@@ -5,101 +5,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <h1>Heading</h1>
-    <h2>Heading</h2>
-    <h3>Heading</h3>
-    <h4>Heading</h4>
-    <h5>Heading</h5>
-    <h6>Heading</h6>
-    <p>My Name Is Elizabeth.<br/>
-        A 3rd year computer science major.<br/>
-        I'm learning frontend engineering at AppClick,
-        for the duration of 4 months.
-    </p>
-     -->
-    <!-- <a href="https/www.google.com" target="_blank">link to google</a> -->
+    <nav>
 
-    <!-- <input  type="date" placeholder="Enter Your Name"/>
+        <div class="left-box">
+           <img class="logo" src="/assests/yt png.png" />
+        </div>
 
-    <img src="/assests/0e874861c85fd9ca9247b73b6c65fb4e.jpg" width="50px" height="50px"/>
-    <video src="/assests/React Course - Beginner's Tutorial for React JavaScript Library [2022].mp4" controls></video>
-    <audio src="/assests/09._2step-1.mp3" controls></audio> -->
+        <div class="middle-box">
+          <div class="input-box">
+            <input placeholder="Search" />
+            <div><i class="fa-solid fa-magnifying-glass"></i></div>
+            
+           </div>
+           <button><i class="fa-solid fa-microphone"></i></button>
+        </div>
 
+        <div class="right-box">
+          <a href="getresponse.html">
+          <button class="create-btn"> <i class="fa-solid fa-plus"></i>Create</button></a>
+          <div><i class="fa-solid fa-bell"></i><span>9+</span></div>
+          <img src="/assests/0e874861c85fd9ca9247b73b6c65fb4e.jpg" alt="profile-picture" />
+        </div>
 
-    <!-- <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-
-     <ol>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ol> -->
-
-    <!-- <div></div>
-    <section></section>
+    </nav>
 
 
-    <h1>This is a  h1 Text</h1>
-    <button>Click me</button>
-    <button>Click me too</button> -->
+    <section class="video-section">
+      <article>
+        <div>
+        <img class="video-image"
+        src="https://i.ytimg.com/vi/oK3JOfPFuGw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCaFlsVfvll5HO9gF3BZ6xJ73X3gA" 
+        alt="thumbnail"  /><span class="timestamp">19:17</span></div>
 
-    <!-- <input type="button" placeholder="click me"/>
+        <div class="video-info">
+          <img class="channel-image"
+          src="https://yt3.ggpht.com/whABd1HGCAssp8GcOHnAgEqOK3xKZcPt1kUyNM-bt_-meVEiKXBx5ZWKuU8xQkqmJIpAlHrP4yQ=s68-c-k-c0x00ffffff-no-rj" 
+          alt="channel-picture"/>
 
-
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Class</th>
-        </tr>
-        <tr>
-            <td>Mike</td>
-            <td>10</td>
-            <td>fullstack</td>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>20</td>
-            <td>cyber</td>
-        </tr>
-    </table> -->
+          <div class="video-desc">
+            <h1 class="video-title">The Story of Esther | Stunning Animated Bible Story of Courage and Divine Destiny</h1>
+            <p class="video-author">Bible Chronicles Animation</p>
+            <span class="video-stats">2.9M views &middot; 1 month ago</span>
+          </div>
+        </div>
+      </article>
 
 
-    <!-- <form>
-        <label>Full Name</label>
-        <input required readonly type="text" placeholder="enter your full name" /> <br />
+      <article>
+        <div>
+        <img class="video-image"
+        src="https://i.ytimg.com/vi/F1XIq-mVlYo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSNPnRJ-8iqj4yYrVY0_rtlyZ0Zw" 
+        alt="thumbnail"  /><span class="timestamp">23:02</span></div>
 
-        <label>Email</label>
-        <input type="email" placeholder="enter your email" /> <br />
+        <div class="video-info">
+          <img class="channel-image"
+          src="https://yt3.ggpht.com/FpranvpD7HgeK4CdmA3svZYGtiLt1_MfbVc1uNUKopejueZpCgjJu4Pe7dSWAIoVVZpE-JSTmg=s68-c-k-c0x00ffffff-no-rj" 
+          alt="channel-picture"/>
 
-        <label>Password</label>
-        <input type="password" placeholder="enter your password" /> <br />
+          <div class="video-desc">
+            <h1 class="video-title">Chill Christian R&B Playlist</h1>
+            <p class="video-author">HolyFlow</p>
+            <span class="video-stats">1.4M views &middot; 7 months ago</span>
+          </div>
+        </div>
+      </article>
 
-        <label>Confirm Password</label>
-        <input type="password" placeholder="confirm your password" /> <br />
 
-        
-        <input type="checkbox" />
-        <span>I agree to the terms and conditions</span> <br />
+       <article>
+        <div>
+        <img class="video-image"
+        src="https://i.ytimg.com/vi/yebNIHKAC4A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAlSzqGHcyNcCwgmIOh007wdvTrdw" 
+        alt="thumbnail"  /><span class="timestamp">3:19</span></div>
 
-        <button> Submit</button>
-    </form> -->
+        <div class="video-info">
+          <img class="channel-image"
+          src="https://yt3.ggpht.com/ytc/AIdro_ky8LvnMs6mkCZUAUW-fAhZYUn_17wpqvGK0rxSTL7ZYwk=s68-c-k-c0x00ffffff-no-rj" 
+          alt="channel-picture"/>
 
-    <!-- css -->
-     <!-- cascading style sheet -->
+          <div class="video-desc">
+            <h1 class="video-title">"Golden" Official Lyric Video | KPop Demon Hunters | Sony Animations </h1>
+            <p class="video-author">Sony Pictures Animation</p>
+            <span class="video-stats">186M views &middot; 1 month ago</span>
+          </div>
+        </div>
+      </article>
 
-     
 
-     <h1 class="title">This is my first CSS</h1>
-     <p class="name">My Name is Beth</p>
-     <h1 id="another">This is another h1</h1>
-     <span>This is a span element</span>
-     
+      <article>
+        <div>
+        <img class="video-image"
+        src="https://i.ytimg.com/vi/oK3JOfPFuGw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCaFlsVfvll5HO9gF3BZ6xJ73X3gA" 
+        alt="thumbnail"  /><span class="timestamp">19:17</span></div>
+
+        <div class="video-info">
+          <img class="channel-image"
+          src="https://yt3.ggpht.com/whABd1HGCAssp8GcOHnAgEqOK3xKZcPt1kUyNM-bt_-meVEiKXBx5ZWKuU8xQkqmJIpAlHrP4yQ=s68-c-k-c0x00ffffff-no-rj" 
+          alt="channel-picture"/>
+
+          <div class="video-desc">
+            <h1 class="video-title">The Story of Esther | Stunning Animated Bible Story of Courage and Divine Destiny</h1>
+            <p class="video-author">Bible Chronicles Animation</p>
+            <span class="video-stats">2.9M views &middot; 1 month ago</span>
+          </div>
+        </div>
+      </article>
+
+
+      <article>
+        <div>
+        <img class="video-image"
+        src="https://i.ytimg.com/vi/F1XIq-mVlYo/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDSNPnRJ-8iqj4yYrVY0_rtlyZ0Zw" 
+        alt="thumbnail"  /><span class="timestamp">23:02</span></div>
+
+        <div class="video-info">
+          <img class="channel-image"
+          src="https://yt3.ggpht.com/FpranvpD7HgeK4CdmA3svZYGtiLt1_MfbVc1uNUKopejueZpCgjJu4Pe7dSWAIoVVZpE-JSTmg=s68-c-k-c0x00ffffff-no-rj" 
+          alt="channel-picture"/>
+
+          <div class="video-desc">
+            <h1 class="video-title">Chill Christian R&B Playlist</h1>
+            <p class="video-author">HolyFlow</p>
+            <span class="video-stats">1.4M views &middot; 7 months ago</span>
+          </div>
+        </div>
+      </article>
+
+
+       <article>
+        <div>
+        <img class="video-image"
+        src="https://i.ytimg.com/vi/yebNIHKAC4A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAlSzqGHcyNcCwgmIOh007wdvTrdw" 
+        alt="thumbnail"  /><span class="timestamp">3:19</span></div>
+
+        <div class="video-info">
+          <img class="channel-image"
+          src="https://yt3.ggpht.com/ytc/AIdro_ky8LvnMs6mkCZUAUW-fAhZYUn_17wpqvGK0rxSTL7ZYwk=s68-c-k-c0x00ffffff-no-rj" 
+          alt="channel-picture"/>
+
+          <div class="video-desc">
+            <h1 class="video-title">"Golden" Official Lyric Video | KPop Demon Hunters | Sony Animations </h1>
+            <p class="video-author">Sony Pictures Animation</p>
+            <span class="video-stats">186M views &middot; 1 month ago</span>
+          </div>
+        </div>
+      </article>
+
+
+    </section>
+
 
 </body>
 </html>
