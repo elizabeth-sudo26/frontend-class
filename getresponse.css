@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #f5f7fa;
 }
 h1,ul {
     margin: 0;
@@ -13,6 +14,17 @@ nav {
 .left-box {
     display: flex;
     align-items: center;
+    font-family: 'rubik', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.left-box:hover {
+    cursor: pointer;
+}
+.logo {
+    width: 30px;
+    height: 20px;
+    display: block;
 }
 ul {
     display: flex;
@@ -25,12 +37,20 @@ li {
 .right-box {
    display: flex;
     gap: 20px;
+    font-weight: bold;
 }
 .right-box button:first-child {
     background: none;
     border: none;
     font-weight: bold;
+    font-size: 14px;
+    font-family: 'rubik', Arial, Helvetica, sans-serif;
 }
+.right-box button:first-child:hover {
+    cursor: pointer;
+    color: #00a2ff;
+}
+
 .demo-btn {
     color: #fc5b1a;
     border: 2px solid #fc5b1a;
@@ -38,6 +58,12 @@ li {
     padding: 10px 20px;
     font-weight: bold;
     background: none;
+    font: 14px 'rubik', Arial, Helvetica, sans-serif;
+}
+.demo-btn:hover {
+    cursor: pointer;
+    background-color: #fc5b1a;
+    color: #ffff;
 }
 .right-box button:last-child {
     color: #ffff;
@@ -46,6 +72,12 @@ li {
     padding: 10px 20px;
     font-weight: bold;
     background: #00a2ff;
+    font: 14px 'rubik', Arial, Helvetica, sans-serif;
+}
+.right-box button:last-child:hover {
+    cursor: pointer;
+    background:none;
+    color: #00a2ff
 }
 
 
@@ -55,4 +87,52 @@ li {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 40px 0px 50px;
 }
+.hero-preheader {
+    font-weight: bold;
+    color: #717171;
+    font-family: 'Rubik';
+    margin: 0px 0px 8px;
+    line-height: 1.4;
+}
+.hero-header {
+    color: #000;
+    font-family: 'rubik';
+    font-weight: bold;
+    font-size: 60.48px;
+    margin: 0px 0px 17px;
+    line-height: 1.13;
+}
+.hero-subheader {
+    color: #000;
+    font-family: 'rubik';
+    margin: 0px 0px 60px;
+    line-height: 1.4;
+    font-size: 18px;
+}
+.hero-button {
+     color: #191B19;
+    border: 2px solid #e3d500;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #fbe30c;
+    padding: 17px 31px;
+    border-radius: 24px;
+    border-width: 3px;
+    margin: 5px;
+    line-height: 1;
+}
+.hero-button:hover {
+    cursor: pointer;
+    border-color: #2c85d5;
+    background-color: #38a2ff;
+     color: #fff;
+    }
+    .hero-text {
+        display: flex;
+        justify-content: center;
+        margin: 13px 0px 0px;
+    }
