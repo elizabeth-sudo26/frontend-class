@@ -21,11 +21,11 @@ nav {
 .left-box:hover {
     cursor: pointer;
 }
-/* .getresponse-logo {
+.getresponse-logo {
     width: 30px;
     height: 20px;
     display: block;
-} */
+}
 ul {
     display: flex;
     gap: 15px;
